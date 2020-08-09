@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Zombie Apocalypse</title>
+      <link rel="shortcut icon" href="https://cdn.pixabay.com/photo/2020/04/13/16/28/cartoon-5039153_960_720.png">
+      <link rel="stylesheet" href="style.css">
+      <link href="https://fonts.googleapis.com/css2?family=Recursive:wght@300;400;700&display=swap" rel="stylesheet">
+
+
+  </head>
+  <body>\
+    <h1 id="zombie">Zombie Apocalypse</h1>
+    <div class="story">
+    <h2>The zombie apocalypse has happened! Gather the most resources that you can to increase your chances of survival! If you reach the end without getting bitten, congratulations you survive!</h2>
+  </div>
+    <img id="zombiePic" src="https://cdn.pixabay.com/photo/2017/09/29/16/23/zombie-2799591_960_720.png" alt="Zombie Game Picture" height="300px">
+    <div class="BP">
+    <ul>
+      <li>Click on any item in the table below to try and find resources.</li>
+      <li>Avoid the zombies! If you click on an item and a zombie appears you have been bitten!</li>
+      <li>Get the highest score or reach the end to survive!</li>
+    </ul>
+    </div>
+    <div class="TB">
+    <table id="table" >
+      <tr>
+        <td id=0 onclick="treasure(0)"><img src = "https://freesvg.org/img/Kiste.png" height ="50px"></td>
+        <td id=1 onclick="treasure(1)"><img src = "https://freesvg.org/img/Kiste.png" height ="50px"></td>
+        <td id=2 onclick="treasure(2)"><img src = "https://freesvg.org/img/Kiste.png" height ="50px"></td>
+        <td id=3 onclick="treasure(3)"><img src = "https://freesvg.org/img/Kiste.png" height ="50px"></td>
+        <td id=4 onclick="treasure(4)"><img src = "https://freesvg.org/img/Kiste.png" height ="50px"></td>
+      </tr>
+      <tr>
+        <td id=5 onclick="treasure(5)"><img src = "https://freesvg.org/img/Kiste.png" height ="50px"></td>
+        <td id=6 onclick="treasure(6)"><img src = "https://freesvg.org/img/Kiste.png" height ="50px"></td>
+        <td id=7 onclick="treasure(7)"><img src = "https://freesvg.org/img/Kiste.png" height ="50px"></td>
+        <td id=8 onclick="treasure(8)"><img src = "https://freesvg.org/img/Kiste.png" height ="50px"></td>
+        <td id=9 onclick="treasure(9)"><img src = "https://freesvg.org/img/Kiste.png" height ="50px"></td>
+      </tr>
+      <tr>
+        <td id=10 onclick="treasure(10)"><img src = "https://freesvg.org/img/Kiste.png" height ="50px"></td>
+        <td id=11 onclick="treasure(11)"><img src = "https://freesvg.org/img/Kiste.png" height ="50px"></td>
+        <td id=12 onclick="treasure(12)"><img src = "https://freesvg.org/img/Kiste.png" height ="50px"></td>
+        <td id=13 onclick="treasure(13)"><img src = "https://freesvg.org/img/Kiste.png" height ="50px"></td>
+        <td id=14 onclick="treasure(14)"><img src = "https://freesvg.org/img/Kiste.png" height ="50px"></td>
+      </tr>
+      <tr>
+        <td id=15 onclick="treasure(15)"><img src = "https://freesvg.org/img/Kiste.png" height ="50px"></td>
+        <td id=16 onclick="treasure(16)"><img src = "https://freesvg.org/img/Kiste.png" height ="50px"></td>
+        <td id=17 onclick="treasure(17)"><img src = "https://freesvg.org/img/Kiste.png" height ="50px"></td>
+        <td id=18 onclick="treasure(18)"><img src = "https://freesvg.org/img/Kiste.png" height ="50px"></td>
+        <td id=19 onclick="treasure(19)"><img src = "https://freesvg.org/img/Kiste.png" height ="50px"></td>
+      </tr>
+      <tr>
+        <td id=20 onclick="treasure(20)"><img src = "https://freesvg.org/img/Kiste.png" height ="50px"></td>
+        <td id=21 onclick="treasure(21)"><img src = "https://freesvg.org/img/Kiste.png" height ="50px"></td>
+        <td id=22 onclick="treasure(22)"><img src = "https://freesvg.org/img/Kiste.png" height ="50px"></td>
+        <td id=23 onclick="treasure(23)"><img src = "https://freesvg.org/img/Kiste.png" height ="50px"></td>
+        <td id=24 onclick="treasure(24)"><img src = "https://freesvg.org/img/Kiste.png" height ="50px"></td>
+      </tr>
+    </table>
+    </div>
+    <hr>
+    <div class="pulse">
+      <a href="#">
+      <button type="button" name="button" onclick="location.reload()">You are dead! Try again?</button>
+    </a>
+    </div>
+    <p>
+      Turns Remaining:
+      <a id="count">20</a>
+
+    </p>
+    <div class="footer">
+    <footer>
+      <nav>
+        <a href="https://mmullis07.github.io/Matt-Mullis-Portfolio/" target="_blank">Matthew & Munir</a>
+        <a href="#zombie">Return to Top</a>
+      </nav>
+    </footer>
+  </div>
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>

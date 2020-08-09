@@ -1,0 +1,146 @@
+body {
+  background-image: url("https://images.alphacoders.com/442/thumb-1920-44251.jpg");
+  background-position: cover;
+  background-repeat: no-repeat;
+  font-family: "Recursive", sans-serif;
+  color: yellow;
+  letter-spacing: 0.2em;
+  margin: 0;
+}
+h1 {
+  font-size: 44px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-shadow: 2px 2px #000;
+  animation: bounceIn 4s infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes bounceIn{
+  60%{
+    transform: scaleX(1.6);
+    opacity: 1;
+  }
+  100%{
+    transform: scaleX(1);
+  }
+}
+
+h2 {
+  text-align: center;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+p {
+  text-align: center;
+}
+table {
+  display: flex;
+  justify-content: center;
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 5px solid #60666e;
+}
+
+
+td {
+  padding: 10px;
+}
+
+div
+{
+  display: flex;
+  justify-content: center;
+}
+
+ul
+{
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 25px;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+hr {
+  width: 50%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block flex;
+  justify-content: center;
+  font-size: 16px;
+}
+
+.pulse a:hover {
+  animation: pulse 1s infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes pulse {
+  0% {transform: scale(1);
+  }
+  50% {transform: scale(1.1);
+  100% {transform: scale(1); }
+  }
+}
+
+footer {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 1.0);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+  bottom: 0;
+  margin:0;
+  height:auto;
+  border: 10px;
+}
+
+a:link {
+  color: white;
+}
+a:visited {
+  color: white;
+}
+
+/*Classes go here */
+.BP
+{
+  display: flex;
+  justify-content: center;
+}
+
+.TB
+{
+    border-collapse: separate;
+    box-sizing: border-box;
+    border-spacing: 2px;
+}
+/* .footer {
+  background-color: pink;
+  width: 100vw;
+  margin: -7px;
+} */
+
+/*IDs go here */
+#zombie {
+  color: red;
+  display: flex;
+  justify-content: center;
+}
+
+#zombiePic
+{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
